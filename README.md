@@ -90,6 +90,7 @@ Connect Tableau to `examples/output/tableau_signedout_variants.csv` to recreate 
 Real vendor reports and SQL exports can contain MRNs, names, dates of birth, and interpretations. Keep all real inputs and outputs outside this repository. The fixtures use the invented `urn:example:mrn` and `urn:example:accession` identifier systems. Real EHR linkage requires an approved identifier mapping and governance. The vendor API authentication and report structure must be verified in an authorized environment. The genomic Bundle is an illustrative subset; use an HL7 FHIR validator and the published Genomics Reporting profiles before making a profile conformance claim.
 
 ## Maintainer
+
 Ratilal Akabari
 Senior Bioinformatics Scientist
 Upstate Medical University
