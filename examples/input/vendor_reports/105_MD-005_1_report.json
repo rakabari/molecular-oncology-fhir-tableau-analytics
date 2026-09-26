@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "name": "compactReportHeader",
+      "content": {
+        "patient_name": "Case 005",
+        "date_of_birth": "1982-05-17",
+        "mrn": [
+          "MB-005"
+        ],
+        "disease": "Astrocytoma"
+      }
+    },
+    {
+      "name": "compactSignout",
+      "content": {
+        "name": "Reviewing pathologist",
+        "date": "2026-01-15"
+      }
+    },
+    {
+      "name": "compactClinicalImplications",
+      "content": {
+        "knowledgeBaseResults": [
+          {
+            "genomicFinding": {
+              "variants": [
+                {
+                  "variantCallId": "call-005",
+                  "displayData": {
+                    "geneSymbol": "IDH1",
+                    "transcript": "NM_005896.4",
+                    "cSyntax": "c.395G>A",
+                    "pSyntax": "p.Arg132His",
+                    "structuralSyntax": ""
+                  },
+                  "additionalDetails": {
+                    "vaf": "29.8",
+                    "depth": "1,105"
+                  }
+                }
+              ]
+            },
+            "inferredClassification": {
+              "level": "I"
+            },
+            "interpretation": "Finding recorded for workflow illustration; no treatment recommendation is provided."
+          }
+        ]
+      }
+    }
+  ]
+}

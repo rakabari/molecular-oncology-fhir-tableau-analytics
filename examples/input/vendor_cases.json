@@ -1,0 +1,95 @@
+{
+  "note": "Fictional patient records; gene and HGVS combinations follow public variant references.",
+  "cases": [
+    {
+      "accession": "MD-001",
+      "mrn": "MB-001",
+      "patient_id": "p001",
+      "order_id": "o001",
+      "signed_out": "2026-01-11T12:00:00Z",
+      "disease": "Acute myeloid leukemia",
+      "variants": [
+        {
+          "gene": "FLT3",
+          "hgnc_id": "3765",
+          "hgvs_c": "NM_004119.3:c.2503G>T",
+          "hgvs_p": "p.Asp835Tyr",
+          "vaf": 23.4,
+          "depth": 812
+        }
+      ]
+    },
+    {
+      "accession": "MD-002",
+      "mrn": "MB-002",
+      "patient_id": "p002",
+      "order_id": "o002",
+      "signed_out": "2026-01-12T12:00:00Z",
+      "disease": "Lung adenocarcinoma",
+      "variants": [
+        {
+          "gene": "EGFR",
+          "hgnc_id": "3236",
+          "hgvs_c": "NM_005228.5:c.2573T>G",
+          "hgvs_p": "p.Leu858Arg",
+          "vaf": 34.6,
+          "depth": 1042
+        }
+      ]
+    },
+    {
+      "accession": "MD-003",
+      "mrn": "MB-003",
+      "patient_id": "p003",
+      "order_id": "o003",
+      "signed_out": "2026-01-13T12:00:00Z",
+      "disease": "Colorectal adenocarcinoma",
+      "variants": [
+        {
+          "gene": "BRAF",
+          "hgnc_id": "1097",
+          "hgvs_c": "NM_004333.6:c.1799T>A",
+          "hgvs_p": "p.Val600Glu",
+          "vaf": 41.2,
+          "depth": 925
+        }
+      ]
+    },
+    {
+      "accession": "MD-004",
+      "mrn": "MB-004",
+      "patient_id": "p004",
+      "order_id": "o004",
+      "signed_out": "2026-01-14T12:00:00Z",
+      "disease": "Breast carcinoma",
+      "variants": [
+        {
+          "gene": "PIK3CA",
+          "hgnc_id": "8975",
+          "hgvs_c": "NM_006218.4:c.3140A>G",
+          "hgvs_p": "p.His1047Arg",
+          "vaf": 18.7,
+          "depth": 1360
+        }
+      ]
+    },
+    {
+      "accession": "MD-005",
+      "mrn": "MB-005",
+      "patient_id": "p005",
+      "order_id": "o005",
+      "signed_out": "2026-01-15T12:00:00Z",
+      "disease": "Astrocytoma",
+      "variants": [
+        {
+          "gene": "IDH1",
+          "hgnc_id": "5382",
+          "hgvs_c": "NM_005896.4:c.395G>A",
+          "hgvs_p": "p.Arg132His",
+          "vaf": 29.8,
+          "depth": 1105
+        }
+      ]
+    }
+  ]
+}

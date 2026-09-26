@@ -1,0 +1,105 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "report-MD-001",
+        "status": "final",
+        "identifier": [
+          {
+            "system": "urn:example:accession",
+            "value": "MD-001"
+          }
+        ],
+        "code": {
+          "text": "Molecular oncology panel"
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/o001"
+          }
+        ],
+        "effectiveDateTime": "2026-01-11T12:00:00Z",
+        "result": [
+          {
+            "reference": "Observation/variant-MD-001-1"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "variant-MD-001-1",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "69548-6",
+              "display": "Genetic variant assessment"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48018-6",
+                  "display": "Gene studied ID"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.genenames.org/geneId",
+                  "code": "3765",
+                  "display": "FLT3"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48004-6",
+                  "display": "DNA change (c.HGVS)"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "NM_004119.3:c.2503G>T"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48005-3",
+                  "display": "Amino acid change (p.HGVS)"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "p.Asp835Tyr"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

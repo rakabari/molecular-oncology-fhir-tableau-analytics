@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "name": "compactReportHeader",
+      "content": {
+        "patient_name": "Case 003",
+        "date_of_birth": "1958-07-24",
+        "mrn": [
+          "MB-003"
+        ],
+        "disease": "Colorectal adenocarcinoma"
+      }
+    },
+    {
+      "name": "compactSignout",
+      "content": {
+        "name": "Reviewing pathologist",
+        "date": "2026-01-13"
+      }
+    },
+    {
+      "name": "compactClinicalImplications",
+      "content": {
+        "knowledgeBaseResults": [
+          {
+            "genomicFinding": {
+              "variants": [
+                {
+                  "variantCallId": "call-003",
+                  "displayData": {
+                    "geneSymbol": "BRAF",
+                    "transcript": "NM_004333.6",
+                    "cSyntax": "c.1799T>A",
+                    "pSyntax": "p.Val600Glu",
+                    "structuralSyntax": ""
+                  },
+                  "additionalDetails": {
+                    "vaf": "41.2",
+                    "depth": "925"
+                  }
+                }
+              ]
+            },
+            "inferredClassification": {
+              "level": "I"
+            },
+            "interpretation": "Finding recorded for workflow illustration; no treatment recommendation is provided."
+          }
+        ]
+      }
+    }
+  ]
+}

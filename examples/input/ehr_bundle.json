@@ -1,0 +1,166 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p001",
+        "identifier": [
+          {
+            "system": "urn:example:mrn",
+            "value": "MB-001"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "o001",
+        "status": "completed",
+        "intent": "order",
+        "identifier": [
+          {
+            "system": "urn:example:accession",
+            "value": "MD-001"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/p001"
+        },
+        "code": {
+          "text": "Molecular oncology panel"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p002",
+        "identifier": [
+          {
+            "system": "urn:example:mrn",
+            "value": "MB-002"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "o002",
+        "status": "completed",
+        "intent": "order",
+        "identifier": [
+          {
+            "system": "urn:example:accession",
+            "value": "MD-002"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/p002"
+        },
+        "code": {
+          "text": "Molecular oncology panel"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p003",
+        "identifier": [
+          {
+            "system": "urn:example:mrn",
+            "value": "MB-003"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "o003",
+        "status": "completed",
+        "intent": "order",
+        "identifier": [
+          {
+            "system": "urn:example:accession",
+            "value": "MD-003"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/p003"
+        },
+        "code": {
+          "text": "Molecular oncology panel"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p004",
+        "identifier": [
+          {
+            "system": "urn:example:mrn",
+            "value": "MB-004"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "o004",
+        "status": "completed",
+        "intent": "order",
+        "identifier": [
+          {
+            "system": "urn:example:accession",
+            "value": "MD-004"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/p004"
+        },
+        "code": {
+          "text": "Molecular oncology panel"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p005",
+        "identifier": [
+          {
+            "system": "urn:example:mrn",
+            "value": "MB-005"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "o005",
+        "status": "completed",
+        "intent": "order",
+        "identifier": [
+          {
+            "system": "urn:example:accession",
+            "value": "MD-005"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/p005"
+        },
+        "code": {
+          "text": "Molecular oncology panel"
+        }
+      }
+    }
+  ]
+}

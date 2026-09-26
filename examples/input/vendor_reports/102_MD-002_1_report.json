@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "name": "compactReportHeader",
+      "content": {
+        "patient_name": "Case 002",
+        "date_of_birth": "1965-03-12",
+        "mrn": [
+          "MB-002"
+        ],
+        "disease": "Lung adenocarcinoma"
+      }
+    },
+    {
+      "name": "compactSignout",
+      "content": {
+        "name": "Reviewing pathologist",
+        "date": "2026-01-12"
+      }
+    },
+    {
+      "name": "compactClinicalImplications",
+      "content": {
+        "knowledgeBaseResults": [
+          {
+            "genomicFinding": {
+              "variants": [
+                {
+                  "variantCallId": "call-002",
+                  "displayData": {
+                    "geneSymbol": "EGFR",
+                    "transcript": "NM_005228.5",
+                    "cSyntax": "c.2573T>G",
+                    "pSyntax": "p.Leu858Arg",
+                    "structuralSyntax": ""
+                  },
+                  "additionalDetails": {
+                    "vaf": "34.6",
+                    "depth": "1,042"
+                  }
+                }
+              ]
+            },
+            "inferredClassification": {
+              "level": "I"
+            },
+            "interpretation": "Finding recorded for workflow illustration; no treatment recommendation is provided."
+          }
+        ]
+      }
+    }
+  ]
+}

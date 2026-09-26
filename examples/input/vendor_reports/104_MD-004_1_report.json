@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "name": "compactReportHeader",
+      "content": {
+        "patient_name": "Case 004",
+        "date_of_birth": "1976-11-09",
+        "mrn": [
+          "MB-004"
+        ],
+        "disease": "Breast carcinoma"
+      }
+    },
+    {
+      "name": "compactSignout",
+      "content": {
+        "name": "Reviewing pathologist",
+        "date": "2026-01-14"
+      }
+    },
+    {
+      "name": "compactClinicalImplications",
+      "content": {
+        "knowledgeBaseResults": [
+          {
+            "genomicFinding": {
+              "variants": [
+                {
+                  "variantCallId": "call-004",
+                  "displayData": {
+                    "geneSymbol": "PIK3CA",
+                    "transcript": "NM_006218.4",
+                    "cSyntax": "c.3140A>G",
+                    "pSyntax": "p.His1047Arg",
+                    "structuralSyntax": ""
+                  },
+                  "additionalDetails": {
+                    "vaf": "18.7",
+                    "depth": "1,360"
+                  }
+                }
+              ]
+            },
+            "inferredClassification": {
+              "level": "I"
+            },
+            "interpretation": "Finding recorded for workflow illustration; no treatment recommendation is provided."
+          }
+        ]
+      }
+    }
+  ]
+}

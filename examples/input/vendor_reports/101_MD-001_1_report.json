@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "name": "compactReportHeader",
+      "content": {
+        "patient_name": "Case 001",
+        "date_of_birth": "1970-01-01",
+        "mrn": [
+          "MB-001"
+        ],
+        "disease": "Acute myeloid leukemia"
+      }
+    },
+    {
+      "name": "compactSignout",
+      "content": {
+        "name": "Reviewing pathologist",
+        "date": "2026-01-11"
+      }
+    },
+    {
+      "name": "compactClinicalImplications",
+      "content": {
+        "knowledgeBaseResults": [
+          {
+            "genomicFinding": {
+              "variants": [
+                {
+                  "variantCallId": "call-001",
+                  "displayData": {
+                    "geneSymbol": "FLT3",
+                    "transcript": "NM_004119.3",
+                    "cSyntax": "c.2503G>T",
+                    "pSyntax": "p.Asp835Tyr",
+                    "structuralSyntax": ""
+                  },
+                  "additionalDetails": {
+                    "vaf": "23.4",
+                    "depth": "812"
+                  }
+                }
+              ]
+            },
+            "inferredClassification": {
+              "level": "I"
+            },
+            "interpretation": "Finding recorded for workflow illustration; no treatment recommendation is provided."
+          }
+        ]
+      }
+    }
+  ]
+}

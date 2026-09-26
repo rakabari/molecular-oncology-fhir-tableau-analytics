@@ -1,0 +1,6 @@
+{
+  "valid_basic_checks": true,
+  "resources_checked": 2,
+  "errors": [],
+  "scope": "Local structural and reference checks only; HL7 profile conformance not assessed"
+}

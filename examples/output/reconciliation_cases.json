@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "case_id": "101",
+      "accession": "MD-001",
+      "report_id": 1,
+      "mrn": "MB-001",
+      "disease": "Acute myeloid leukemia",
+      "signed_out": "2026-01-11",
+      "variant_count": 1
+    },
+    {
+      "case_id": "102",
+      "accession": "MD-002",
+      "report_id": 1,
+      "mrn": "MB-002",
+      "disease": "Lung adenocarcinoma",
+      "signed_out": "2026-01-12",
+      "variant_count": 1
+    },
+    {
+      "case_id": "103",
+      "accession": "MD-003",
+      "report_id": 1,
+      "mrn": "MB-003",
+      "disease": "Colorectal adenocarcinoma",
+      "signed_out": "2026-01-13",
+      "variant_count": 1
+    },
+    {
+      "case_id": "104",
+      "accession": "MD-004",
+      "report_id": 1,
+      "mrn": "MB-004",
+      "disease": "Breast carcinoma",
+      "signed_out": "2026-01-14",
+      "variant_count": 1
+    },
+    {
+      "case_id": "105",
+      "accession": "MD-005",
+      "report_id": 1,
+      "mrn": "MB-005",
+      "disease": "Astrocytoma",
+      "signed_out": "2026-01-15",
+      "variant_count": 1
+    }
+  ]
+}
