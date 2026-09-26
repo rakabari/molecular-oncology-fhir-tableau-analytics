@@ -91,6 +91,6 @@ Real vendor reports and SQL exports can contain MRNs, names, dates of birth, and
 
 ## Maintainer
 
-Ratilal Akabari
-Senior Bioinformatics Scientist
-Upstate Medical University
+Ratilal Akabari  
+Senior Bioinformatics Scientist  
+Upstate Medical University  
